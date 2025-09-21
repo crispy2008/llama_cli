@@ -1,0 +1,805 @@
+[
+  {
+    "possible_tags": [
+      "doughnut",
+      "table",
+      "dining table",
+      "wooden table",
+      "3D model",
+      "wooden object",
+      "contact lens case",
+      "wooden block",
+      "sculpture"
+    ],
+    "object_tag": "doughnut-shaped object"
+  },
+  {
+    "possible_tags": [
+      "tan stool",
+      "ottoman",
+      "woven chair",
+      "floor",
+      "doormat",
+      "white stools",
+      "clock",
+      "tan pillows",
+      "leather boots",
+      "footstool",
+      "braided design"
+    ],
+    "object_tag": "tan stool or ottoman"
+  },
+  {
+    "possible_tags": [
+      "light fixture",
+      "lamp",
+      "light bulb",
+      "LED light",
+      "ceiling lamp",
+      "lampshade",
+      "white umbrella"
+    ],
+    "object_tag": "white ceiling lamp"
+  },
+  {
+    "possible_tags": [
+      "door",
+      "wooden door",
+      "doorknob",
+      "window",
+      "curtains",
+      "umbrella"
+    ],
+    "object_tag": "wooden door"
+  },
+  {
+    "possible_tags": [
+      "vase",
+      "ceramic",
+      "clay",
+      "container",
+      "antique",
+      "decor"
+    ],
+    "object_tag": "ceramic vase"
+  },
+  {
+    "possible_tags": [
+      "light bulb",
+      "sky",
+      "cloud",
+      "sun",
+      "sunset",
+      "sunrise",
+      "glow"
+    ],
+    "object_tag": "light bulb"
+  },
+  {
+    "possible_tags": [
+      "wooden drawer",
+      "wooden dresser",
+      "chest of drawers",
+      "wooden cabinet",
+      "wooden box",
+      "crate",
+      "table",
+      "counter"
+    ],
+    "object_tag": "wooden dresser"
+  },
+  {
+    "possible_tags": [
+      "mirror",
+      "cork board",
+      "bulletin board",
+      "window",
+      "frame",
+      "painting",
+      "mosaic",
+      "wall"
+    ],
+    "object_tag": "cork board"
+  },
+  {
+    "possible_tags": [
+      "scissors",
+      "man",
+      "shoes",
+      "clock",
+      "dog",
+      "legs",
+      "pants",
+      "computer mouse",
+      "mouse",
+      "whiteboard"
+    ],
+    "object_tag": "scissors and computer mouse"
+  },
+  {
+    "possible_tags": [
+      "lamp",
+      "table lamp",
+      "table",
+      "doorway"
+    ],
+    "object_tag": "lamp"
+  },
+  {
+    "possible_tags": [
+      "baseball glove",
+      "donut",
+      "table",
+      "lens cap",
+      "baseball bat",
+      "wood",
+      "wooden table",
+      "dining table",
+      "looking glass"
+    ],
+    "object_tag": "wooden table"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "decorative pillow",
+      "floral pattern",
+      "couch",
+      "bed",
+      "teddy bear",
+      "leaves"
+    ],
+    "object_tag": "decorative pillow"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "vase",
+      "picture frame",
+      "cabinet",
+      "cupboard",
+      "table",
+      "dresser",
+      "chest of drawers"
+    ],
+    "object_tag": "vase"
+  },
+  {
+    "possible_tags": [
+      "lotion",
+      "bowl",
+      "tray",
+      "plate stand",
+      "shoes",
+      "fertilizer",
+      "stand",
+      "cutting board",
+      "table",
+      "ceramic container",
+      "plate",
+      "vase"
+    ],
+    "object_tag": "three-tiered stand"
+  },
+  {
+    "possible_tags": [
+      "toothbrush",
+      "painting",
+      "boat",
+      "photo",
+      "book",
+      "table",
+      "bed"
+    ],
+    "object_tag": "boat painting"
+  },
+  {
+    "possible_tags": [
+      "book",
+      "open book",
+      "table",
+      "wooden table",
+      "bookmark",
+      "page turner"
+    ],
+    "object_tag": "open book"
+  },
+  {
+    "possible_tags": [
+      "smartphone",
+      "toothbrush",
+      "scissors",
+      "cell phone",
+      "computer mouse"
+    ],
+    "object_tag": "smartphone"
+  },
+  {
+    "possible_tags": [
+      "light fixture",
+      "lamp",
+      "ceiling light",
+      "ceiling fan",
+      "fan",
+      "remote control",
+      "ceiling",
+      "hanging"
+    ],
+    "object_tag": "light fixture"
+  },
+  {
+    "possible_tags": [
+      "scissors",
+      "dark silhouette",
+      "scanner",
+      "knife",
+      "black piece of paper",
+      "black notebook"
+    ],
+    "object_tag": "scissors"
+  },
+  {
+    "possible_tags": [
+      "pair of scissors",
+      "light bulb",
+      "white light",
+      "sunbeam",
+      "window",
+      "hole",
+      "wall",
+      "ceiling",
+      "white box",
+      "border",
+      "toothbrush"
+    ],
+    "object_tag": "light bulb, toothbrush"
+  },
+  {
+    "possible_tags": [
+      "toilet",
+      "white toilet",
+      "toothbrush",
+      "white toothbrush"
+    ],
+    "object_tag": "white toilet and toothbrush"
+  },
+  {
+    "possible_tags": [
+      "knife",
+      "scissors",
+      "paper"
+    ],
+    "object_tag": "scissors"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "blinds",
+      "vertical blinds",
+      "couch",
+      "light fixture",
+      "wall",
+      "ceiling",
+      "bed",
+      "teddy bear"
+    ],
+    "object_tag": "window with blinds"
+  },
+  {
+    "possible_tags": [
+      "white toothbrush",
+      "toothbrush",
+      "ceiling",
+      "white ceiling",
+      "light fixture",
+      "air freshener",
+      "car air freshener",
+      "ceiling speaker",
+      "snowboard",
+      "snow-covered area"
+    ],
+    "object_tag": "white toothbrush"
+  },
+  {
+    "possible_tags": [
+      "pot",
+      "vase",
+      "plant",
+      "table",
+      "ceramic",
+      "jar",
+      "container",
+      "wooden table"
+    ],
+    "object_tag": "ceramic pot"
+  },
+  {
+    "possible_tags": [
+      "glass vase",
+      "vase",
+      "water",
+      "flowers",
+      "table"
+    ],
+    "object_tag": "glass vase"
+  },
+  {
+    "possible_tags": [
+      "light fixture",
+      "ceiling",
+      "hanging"
+    ],
+    "object_tag": "light fixture"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "blinds",
+      "shades"
+    ],
+    "object_tag": "window with blinds"
+  },
+  {
+    "possible_tags": [
+      "couch",
+      "blanket",
+      "throw",
+      "fur throw",
+      "white couch",
+      "comforter",
+      "cover"
+    ],
+    "object_tag": "white couch with a blanket"
+  },
+  {
+    "possible_tags": [
+      "shell",
+      "pillow",
+      "decorative pillow",
+      "key",
+      "metal rod",
+      "tube",
+      "bed"
+    ],
+    "object_tag": "decorative pillow"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "cushion",
+      "floral pattern",
+      "bed",
+      "surface",
+      "cover"
+    ],
+    "object_tag": "floral patterned pillow"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "stuffed animal",
+      "dog",
+      "teddy bear",
+      "couch",
+      "towel",
+      "sheet of paper"
+    ],
+    "object_tag": "white pillow"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "forest print",
+      "bed",
+      "bedspread"
+    ],
+    "object_tag": "pillow"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "bed",
+      "comforter",
+      "furry pillow",
+      "couch",
+      "pattern",
+      "black and white"
+    ],
+    "object_tag": "furry pillow"
+  },
+  {
+    "possible_tags": [
+      "couch",
+      "footstool",
+      "ottoman",
+      "chair",
+      "toilet",
+      "tube",
+      "hose"
+    ],
+    "object_tag": "white chair"
+  },
+  {
+    "possible_tags": [
+      "vase",
+      "mug",
+      "cup",
+      "cell phone",
+      "scissors",
+      "wooden table",
+      "table"
+    ],
+    "object_tag": "vase"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "blinds",
+      "vertical blinds"
+    ],
+    "object_tag": "window with blinds"
+  },
+  {
+    "possible_tags": [
+      "chair",
+      "television",
+      "teddy bear",
+      "wall",
+      "photo",
+      "clock",
+      "elephant"
+    ],
+    "object_tag": "television"
+  },
+  {
+    "possible_tags": [
+      "fire",
+      "flame",
+      "yellow",
+      "smoke",
+      "3D model",
+      "CGI",
+      "yellow fire",
+      "computer-generated",
+      "flame tree",
+      "sparks"
+    ],
+    "object_tag": "CGI yellow fire"
+  },
+  {
+    "possible_tags": [
+      "remote control",
+      "cat",
+      "stuffed animal",
+      "teddy bear",
+      "fabric",
+      "couch",
+      "furniture",
+      "footrest",
+      "ottoman",
+      "rug",
+      "cushion",
+      "chair",
+      "cover"
+    ],
+    "object_tag": "white couch"
+  },
+  {
+    "possible_tags": [
+      "light fixture",
+      "ceiling",
+      "light bulb"
+    ],
+    "object_tag": "light fixture"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "blinds",
+      "shades",
+      "mini blinds",
+      "large window",
+      "vertical blinds"
+    ],
+    "object_tag": "window with blinds"
+  },
+  {
+    "possible_tags": [
+      "photo",
+      "painting",
+      "boat",
+      "wall",
+      "flower",
+      "vase",
+      "couch",
+      "plant",
+      "mirror",
+      "scissors",
+      "table"
+    ],
+    "object_tag": "vase with flowers"
+  },
+  {
+    "possible_tags": [
+      "couch",
+      "cat",
+      "pillow",
+      "furniture",
+      "chair",
+      "cushion"
+    ],
+    "object_tag": "couch"
+  },
+  {
+    "possible_tags": [
+      "stool",
+      "ottoman",
+      "chair",
+      "furry",
+      "large",
+      "brown",
+      "white",
+      "scissors",
+      "animal",
+      "teddy bear",
+      "throw"
+    ],
+    "object_tag": "furry stool/chair"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "sunlight",
+      "light",
+      "toilet",
+      "scissors",
+      "toothbrush",
+      "light fixture",
+      "ceiling"
+    ],
+    "object_tag": "window"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "couch",
+      "teddy bear",
+      "embroidered tree",
+      "orange",
+      "brown",
+      "design",
+      "CGI pillow"
+    ],
+    "object_tag": "pillow on couch"
+  },
+  {
+    "possible_tags": [
+      "chair",
+      "couch",
+      "photo",
+      "painting",
+      "wall art",
+      "chalkboard",
+      "dog"
+    ],
+    "object_tag": "white couch"
+  },
+  {
+    "possible_tags": [
+      "wooden table",
+      "brown shoes",
+      "vase",
+      "white couch",
+      "coffee table",
+      "living room",
+      "floor",
+      "carpet",
+      "furniture"
+    ],
+    "object_tag": "table"
+  },
+  {
+    "possible_tags": [
+      "light bulb",
+      "white lamp",
+      "sheet of paper",
+      "blank paper",
+      "window",
+      "light fixture",
+      "umbrella-shaped lamp",
+      "lamp"
+    ],
+    "object_tag": "white light bulb"
+  },
+  {
+    "possible_tags": [
+      "pillow",
+      "tree",
+      "print",
+      "drawing",
+      "embroidery",
+      "picture",
+      "imprint",
+      "pattern",
+      "leaf",
+      "design"
+    ],
+    "object_tag": "pillow"
+  },
+  {
+    "possible_tags": [
+      "toilet bowl",
+      "tooth",
+      "ceramic vase",
+      "pottery container",
+      "white color",
+      "toothbrush"
+    ],
+    "object_tag": "ceramic vase"
+  },
+  {
+    "possible_tags": [
+      "toothbrush",
+      "scissors"
+    ],
+    "object_tag": "scissors"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "blinds",
+      "vertical blinds",
+      "cup",
+      "coffee",
+      "table",
+      "counter",
+      "bed"
+    ],
+    "object_tag": "window"
+  },
+  {
+    "possible_tags": [
+      "feather",
+      "white feather",
+      "stuffed animal",
+      "couch",
+      "light source",
+      "light bulb",
+      "sun",
+      "soccer ball",
+      "ball",
+      "rock"
+    ],
+    "object_tag": "feather"
+  },
+  {
+    "possible_tags": [
+      "building",
+      "window",
+      "vertical blinds",
+      "light fixture",
+      "white wall"
+    ],
+    "object_tag": "window with vertical blinds"
+  },
+  {
+    "possible_tags": [
+      "toothbrush",
+      "toilet",
+      "white couch",
+      "couch",
+      "fur throw",
+      "computer screen",
+      "laptop screen",
+      "scissors"
+    ],
+    "object_tag": "white couch"
+  },
+  {
+    "possible_tags": [
+      "human skull",
+      "skull"
+    ],
+    "object_tag": "human skull"
+  },
+  {
+    "possible_tags": [
+      "window",
+      "blinds",
+      "shade",
+      "drawn down",
+      "pulled down"
+    ],
+    "object_tag": "window with blinds"
+  },
+  {
+    "possible_tags": [
+      "toothbrush",
+      "underwear",
+      "undergarment",
+      "cat"
+    ],
+    "object_tag": "toothbrush"
+  },
+  {
+    "possible_tags": [
+      "book",
+      "pair of scissors",
+      "scissors",
+      "toothbrush",
+      "metallic object"
+    ],
+    "object_tag": "book"
+  },
+  {
+    "possible_tags": [
+      "plate",
+      "food",
+      "cake",
+      "dessert",
+      "cheese dish",
+      "table"
+    ],
+    "object_tag": "plate of food"
+  },
+  {
+    "possible_tags": [
+      "chair",
+      "blue pillow",
+      "cushion",
+      "white chair",
+      "ottoman",
+      "footstool",
+      "carpeted floor"
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "possible_tags": [
+      "book",
+      "yellow cover",
+      "colorful cover",
+      "picture",
+      "cake",
+      "piece of cheese"
+    ],
+    "object_tag": "colorful book"
+  },
+  {
+    "possible_tags": [
+      "scissors",
+      "pants",
+      "white pants",
+      "chair",
+      "white chair",
+      "pillow",
+      "blue pillow",
+      "person"
+    ],
+    "object_tag": "white chair"
+  },
+  {
+    "possible_tags": [
+      "scissors",
+      "toothbrush",
+      "umbrella",
+      "clock"
+    ],
+    "object_tag": "clock"
+  },
+  {
+    "possible_tags": [
+      "light fixture",
+      "ceiling",
+      "scissors"
+    ],
+    "object_tag": "light fixture and scissors"
+  },
+  {
+    "possible_tags": [
+      "dog",
+      "cat"
+    ],
+    "object_tag": "pet"
+  }
+]

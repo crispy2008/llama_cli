@@ -1,11 +1,13 @@
 #include "plugin.hpp"
-
+#include "illixr/switchboard.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <cstdio>
 #include <string>
+#include <fstream>
 #include "json.hpp"
 #include "httplib.h"
+#include "illixr/data_format/string_data.hpp"
 
 // #include <chrono>
 // #include <regex>
@@ -37,23 +39,43 @@ void llama_cli::start() {
 
     httplib::Client cli("http://127.0.0.1:8080");
 
+    std::ifstream f("/scratch/yuanyi2/ILLIXR/plugins/llama_cli/scene_desc_tags.json");
+    if (!f) {
+        std::cerr << "Error: couldn't open file.";
+        return;
+    }
+
+    json scene_desc_data = json::parse(f);
+    std::string scene_desc_str = scene_desc_data.dump();
+    prompt_scene_desc =
+        "You are a robot that reads a JSON file containing information about objects in a room with their id, possible tags and object tag.\n"
+        "The user will give you one or several words containing a name from *possible tags*.\n"
+        "Your task is to find the target object tag according to the given possible tag.\n"
+        "You only reply the name of the target object in plain text. \n"
+        "Example question: what is the object tag when user calls *light fixture*? \n"
+        "Example answer: white ceiling lamp. \n"
+        "Now here is the JSON file of tags.";
+    
     json body = {
-        {"prompt", event->value},
-        {"model", "/scratch/yuanyi2/Llama-3.2-1B-Instruct-Q4_K_M.gguf"},
+        // {"prompt", event->value}, // transcript from sr_plugin
+        {"prompt", prompt_scene_desc +  scene_desc_str + "Now here is my question: What is the object tag when user calls *doorknob*?"}, // engineering prompt
+        {"model", "Mistral-7B-Instruct-v0.3.Q2_K.gguf"},
         {"stream", false}
     };
     std::string body_str = body.dump();
     auto res = cli.Post("/completion", body_str, "application/json");
-
+    if (!res) {
+        std::cerr << "Error: http response empty." << std::endl;
+    }
     if (res->status != 200) {
         std::cerr << "Error: " << res->status << " - " << res->body << std::endl;
         return;
     }
     json response_json = json::parse(res->body);
     std::cout << "Response: " << response_json["content"] << std::endl;
-
     string_data data{response_json["content"]};
     response_publisher_.put(std::make_shared<string_data>(data));
+    return;
 }
 
 

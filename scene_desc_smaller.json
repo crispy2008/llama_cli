@@ -1,0 +1,103 @@
+[
+    {
+        "id": 0,
+        "bbox_extent": [
+            0.7,
+            0.7,
+            0.5
+        ],
+        "bbox_center": [
+            1.8,
+            0.6,
+            -1.2
+        ],
+        "possible_tags": [
+            "doughnut",
+            "table",
+            "dining table",
+            "wooden table",
+            "3D model",
+            "wooden object",
+            "contact lens case",
+            "wooden block",
+            "sculpture"
+        ],
+        "object_tag": "doughnut-shaped object",
+        "caption": "a light brown doughnut-shaped object on a brown dining table"
+    },
+    {
+        "id": 1,
+        "bbox_extent": [
+            4.8,
+            4.0,
+            0.2
+        ],
+        "bbox_center": [
+            0.9,
+            1.1,
+            -1.4
+        ],
+        "possible_tags": [
+            "tan stool",
+            "ottoman",
+            "woven chair",
+            "floor",
+            "doormat",
+            "white stools",
+            "clock",
+            "tan pillows",
+            "leather boots",
+            "footstool",
+            "braided design"
+        ],
+        "object_tag": "tan stool or ottoman",
+        "caption": "a tan, possibly woven or braided, stool or ottoman on the floor"
+    },
+    {
+        "id": 2,
+        "bbox_extent": [
+            0.5,
+            0.5,
+            0.4
+        ],
+        "bbox_center": [
+            2.3,
+            -0.8,
+            -0.3
+        ],
+        "possible_tags": [
+            "light fixture",
+            "lamp",
+            "light bulb",
+            "LED light",
+            "ceiling lamp",
+            "lampshade",
+            "white umbrella"
+        ],
+        "object_tag": "white ceiling lamp",
+        "caption": "a white light fixture or lamp, likely a ceiling lamp with a white bulb"
+    },
+    {
+        "id": 3,
+        "bbox_extent": [
+            2.2,
+            1.6,
+            0.1
+        ],
+        "bbox_center": [
+            0.0,
+            -1.1,
+            -0.4
+        ],
+        "possible_tags": [
+            "door",
+            "wooden door",
+            "doorknob",
+            "window",
+            "curtains",
+            "umbrella"
+        ],
+        "object_tag": "wooden door",
+        "caption": "a wooden door with a doorknob"
+    }
+]
