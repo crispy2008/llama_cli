@@ -5,6 +5,7 @@
 #include "illixr/switchboard.hpp"
 #include <string>
 
+
 namespace ILLIXR {
 
 class llama_cli : public plugin {
@@ -15,6 +16,7 @@ public:
 private:
     const std::shared_ptr<switchboard>                   switchboard_;
     switchboard::reader<data_format::string_data> text_reader_;
+    switchboard::buffered_reader<data_format::string_data> reader_;
     switchboard::writer<data_format::string_data> response_publisher_;
     std::string prompt_scene_desc;
 
